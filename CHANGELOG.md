@@ -2,6 +2,14 @@
 
 All notable changes to ShiftWheel. The format follows [Keep a Changelog](https://keepachangelog.com), and versions follow [Semantic Versioning](https://semver.org).
 
+## [1.1.0] - 2026-10-24
+
+### Added
+- Built-in updater; Share through the Windows share sheet; any-key bindings with Record; compression levels with size estimates; batch "apply to all"; Save / Cancel in Settings; macOS builds in CI.
+
+### Changed
+- Lazy loading and a one-thread OpenBLAS cut idle memory substantially.
+
 ## [1.0.0] - 2026-10-23
 
 ### Added
