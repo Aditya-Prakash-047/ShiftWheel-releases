@@ -2,6 +2,11 @@
 
 All notable changes to ShiftWheel. The format follows [Keep a Changelog](https://keepachangelog.com), and versions follow [Semantic Versioning](https://semver.org).
 
+## [1.1.1] - 2026-10-24
+
+### Changed
+- Updates and downloads come from the public ShiftWheel-releases page.
+
 ## [1.1.0] - 2026-10-24
 
 ### Added
