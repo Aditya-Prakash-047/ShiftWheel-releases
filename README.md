@@ -14,14 +14,12 @@ This page has downloads and release notes. The source code isn't kept here.
 |---|---|
 | `ShiftWheel-Setup.exe` | Windows 10/11 (recommended) |
 | `ShiftWheel.exe` | Windows, portable, no install |
-| `ShiftWheel-mac-apple-silicon.dmg` | macOS 11+, M1 and later |
-| `ShiftWheel-mac-intel.dmg` | macOS 11+, Intel |
 
 ## Install
 
 **Windows:** run `ShiftWheel-Setup.exe`. No admin rights needed. The app isn't code-signed yet, so choose **More info → Run anyway** the first time.
 
-**macOS:** open the `.dmg` and drag ShiftWheel onto Applications. The app isn't notarized yet: open it once, then go to **System Settings → Privacy & Security → Open Anyway**.
+This version is for Windows. The newest Mac build is [1.1.1](https://github.com/Aditya-Prakash-047/ShiftWheel-releases/releases/tag/v1.1.1).
 
 ## Use it
 

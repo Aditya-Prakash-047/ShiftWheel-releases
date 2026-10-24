@@ -2,6 +2,11 @@
 
 All notable changes to ShiftWheel. The format follows [Keep a Changelog](https://keepachangelog.com), and versions follow [Semantic Versioning](https://semver.org).
 
+## [1.2.0] - 2026-10-24
+
+### Added
+- About window: creator, links, what's new and credits, inside the app.
+
 ## [1.1.1] - 2026-10-24
 
 ### Changed
