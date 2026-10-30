@@ -2,6 +2,23 @@
 
 All notable changes to ShiftWheel. The format follows [Keep a Changelog](https://keepachangelog.com), and versions follow [Semantic Versioning](https://semver.org).
 
+## [1.3.0] - 2026-10-31
+
+### Added
+- Confirmation before a job creates many files, with a limit in Settings → Saving.
+- PDF split can make one file every N pages; many pieces get their own folder.
+- About: privacy, system details with Copy details, licence, prefilled problem reports.
+- Settings → Behaviour: choose where the wheel opens.
+
+### Changed
+- The wheel opens only for "drag first, then tap the key", only during a real file drag, and by default only in file managers.
+- Polling slows down during games and fullscreen apps; conversions run at low priority.
+- Tools load on first use and memory is released when idle (about 7 MB of active memory once idle on Windows).
+- Each update is offered once per version, and never over a game.
+
+### Fixed
+- **Update now did nothing on Windows**: the update script exited immediately, so no update installed. Versions 1.1.0 to 1.2.0 need one manual install to get this fix.
+
 ## [1.2.0] - 2026-10-24
 
 ### Added
