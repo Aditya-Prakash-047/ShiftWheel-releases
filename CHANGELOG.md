@@ -2,6 +2,24 @@
 
 All notable changes to ShiftWheel. The format follows [Keep a Changelog](https://keepachangelog.com), and versions follow [Semantic Versioning](https://semver.org).
 
+## [1.3.1] - Unreleased
+
+### Added
+- Installer and app details: publisher, copyright, support and update links, licence page.
+- Third-party notices in the app (About → Licence).
+- macOS disk image includes an Applications shortcut.
+
+### Changed
+- Library versions are pinned, so builds are repeatable.
+- Updates are only downloaded from ShiftWheel's own release page.
+- CI runs only for release tags or when started by hand.
+- The default theme and sound pack are now called Santra. Saved settings and themes carry over.
+
+### Fixed
+- A funding link inherited from another project was removed.
+- The macOS build's self-test read the wrong log location.
+- If an update can't find the app afterwards, Windows no longer shows an error box.
+
 ## [1.3.0] - 2026-10-31
 
 ### Added
