@@ -1,10 +1,14 @@
 # ShiftWheel
 
+[![Download](https://img.shields.io/badge/download-latest-FF5200)](https://github.com/Aditya-Prakash-047/ShiftWheel-releases/releases/latest)
+![Windows 10/11](https://img.shields.io/badge/Windows-10%2F11-0078D4)
+![macOS 11+](https://img.shields.io/badge/macOS-11%2B-555555)
+
 **Drag a file, tap a key, drop it on the wheel.** Convert it, compress it, edit it, print it or share it, right where you are. Everything happens on your computer; nothing is uploaded.
 
 ![ShiftWheel themes](assets/themes.png)
 
-This page has downloads and release notes. The source code isn't kept here.
+This page has downloads, release notes and support. The source code isn't kept here.
 
 ## Download
 
@@ -14,12 +18,20 @@ This page has downloads and release notes. The source code isn't kept here.
 |---|---|
 | `ShiftWheel-Setup.exe` | Windows 10/11 (recommended) |
 | `ShiftWheel.exe` | Windows, portable, no install |
+| `ShiftWheel-mac-apple-silicon.dmg` | macOS 11+, M1 and later |
+| `ShiftWheel-mac-intel.dmg` | macOS 11+, Intel |
+
+Ignore the "Source code" links on the release page: GitHub adds them to every release, and here they contain only this page's documents.
 
 ## Install
 
 **Windows:** run `ShiftWheel-Setup.exe`. No admin rights needed. The app isn't code-signed yet, so choose **More info → Run anyway** the first time.
 
-This version is for Windows. The newest Mac build is [1.1.1](https://github.com/Aditya-Prakash-047/ShiftWheel-releases/releases/tag/v1.1.1).
+**macOS:** open the `.dmg` and drag ShiftWheel onto Applications. The app isn't notarized yet: open it once, then go to **System Settings → Privacy & Security → Open Anyway**. Or run this in Terminal:
+
+```bash
+curl -fsSL https://github.com/Aditya-Prakash-047/ShiftWheel-releases/releases/latest/download/install-mac.sh | bash
+```
 
 ## Use it
 
@@ -31,9 +43,11 @@ Or select a file and press **Ctrl+Alt+W**. Keys, themes, sounds and more are in 
 
 ## Updates
 
-ShiftWheel checks this page once a day, verifies the download's SHA-256 and installs it. You can turn this off in Settings → Behaviour.
+ShiftWheel checks this page once a day, verifies the download's SHA-256, installs it and restarts. You can turn this off in Settings → Behaviour. Anyone on version 1.2.0 or older needs to install a newer version by hand once.
 
-## More
+## Help
 
+- [Report a problem](https://github.com/Aditya-Prakash-047/ShiftWheel-releases/issues/new/choose), or use About → Report a problem in the app, which fills in your version.
 - [What's changed](CHANGELOG.md)
-- [Licence](LICENSE)
+- [Security and privacy](SECURITY.md)
+- [Licence](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md)
